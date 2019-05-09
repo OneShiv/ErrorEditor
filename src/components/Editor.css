@@ -1,0 +1,35 @@
+::-webkit-scrollbar {
+  height:8px;
+  width:8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f7f8f9;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 4px;
+}
+
+pre{
+  max-height:50px;
+  overflow:auto;
+}
+pre div{
+  position:relative;
+  opacity:1;
+  background-color:white;
+  z-index:500;
+}
+
+.pre-pre{
+  position:relative;
+}
+pre span{
+  position:absolute;
+  right:10px;
+  cursor:pointer;
+  border:1px solid #888;
+}
